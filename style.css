@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+   background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+h1{
+    padding: 80px   ;
+}
