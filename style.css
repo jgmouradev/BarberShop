@@ -173,34 +173,53 @@ header{
     width: 3rem;
     height: 3rem;
   }
-  .quemsomos h1{
+
+  .barbearia{
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 500px 500px;
+   
+  }
+  .barbearia .container{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items: center;
+   
+  }
+  
+  .barbearia h1{
+    display: flex;
+    justify-content:center;
     padding: 60px;
     font-size: 4rem;
     color: white;
-    text-align: center;
     font-family: "Glegoo",sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 10px;
   }
-  .quemsomos p{
+  .barbearia p{
     color: white;
   }
-
-  .quemsomos2{
-    background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  .apresentacao{
+    display: flex;
+    vertical-align:super;
+    gap: 25px;
+    padding-bottom: 40px;
   }
-
-  .quemsomos2 h1{
-    padding: 60px;
-    font-size: 4rem;
-    color: white;
-    text-align: center;
-    font-family: "Glegoo",sans-serif;
+   .apresentacao img{
+    width: 30rem;
+    height: 30rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-size: cover;
   }
-  .quemsomos2 p{
-    color: white;
-  }
+.time p{
+  color: white;
+}
+  
   
   
   
