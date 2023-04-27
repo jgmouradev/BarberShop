@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
 *{
     margin: 0;
@@ -174,19 +175,13 @@ header{
     height: 3rem;
   }
 
-  .barbearia{
-    background-image: url(images/logo.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: 500px 500px;
-   
-  }
+  
   .barbearia .container{
     display: flex;
     justify-content:center;
     flex-wrap:wrap;
     align-items: center;
+    margin: 60px 0px 60px 0px;
    
   }
   
@@ -194,7 +189,7 @@ header{
     display: flex;
     justify-content:center;
     padding: 60px;
-    font-size: 4rem;
+    font-size: 3rem;
     color: white;
     font-family: "Glegoo",sans-serif;
     text-transform:uppercase;
@@ -205,21 +200,33 @@ header{
   }
   .apresentacao{
     display: flex;
-    vertical-align:super;
-    gap: 25px;
-    padding-bottom: 40px;
+    justify-content: space-around;
   }
    .apresentacao img{
-    width: 30rem;
-    height: 30rem;
-    border: 1px solid white;
+    width:500px;
+    height:350px;
+    border: none;
     border-radius: 5px;
     background-size: cover;
+    margin-left: 200px;
   }
-.time p{
+.apresentacao p{
+  display: flex;
+  flex-wrap: wrap;
   color: white;
+  font-size: 2rem;
+  font-family: "Quicksand",sans-serif;
+  margin: 20px;
+  padding: 40px;
 }
   
-  
+.galeria{
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 500px 500px;
+ 
+}
   
   
