@@ -203,6 +203,11 @@ header{
   .apresentacao{
     display: flex;
     justify-content: space-around;
+    
+  }
+  .foto_apresentacao{
+    display: flex;
+    justify-content: center;
   }
    .apresentacao img{
     width:500px;
@@ -220,11 +225,13 @@ header{
   font-family: "Quicksand",sans-serif;
   margin: 20px;
   padding: 40px;
+  text-align:justify;
 }
 
 .serviços h1{
   display: flex;
   justify-content:center;
+  text-align: center;
   padding: 60px;
   font-size: 3rem;
   color: white;
