@@ -8,8 +8,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>SanDiego Barbershop</title>
 </head>
 <body>
@@ -38,8 +38,10 @@
         <nav class="nav-link">
           <ul class="menu">
             <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-            <li class="menu-item"><a href="#profissional" class="menu-link">Quem Somos</a></li>
-            <li class="menu-item"><a href="#projetos" class="menu-link">Galeria</a></li>
+            <li class="menu-item"><a href="#quemsomos" class="menu-link">Quem Somos</a></li>
+            <li class="menu-item"><a href="#serviços" class="menu-link">Serviços</a></li>
+            <li class="menu-item"><a href="#equipe" class="menu-link">Equipe</a></li>
+            <li class="menu-item"><a href="#galeria" class="menu-link">Galeria</a></li>
             <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
             </ul>
           
@@ -53,19 +55,24 @@
            
       </div>
 
-      <section class="barbearia">
+      <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+      
+
+      <section class="barbearia" id="quemsomos">
         <h1>A Barbearia</h1>
         <div class="container">
           <div class="apresentacao">
             <div class="foto_apresentacao">
               <img src="images/p7.jpg" alt="fotos de apresentaçao da barbearia">
             </div>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iste maxime perferendis, laboriosam animi velit ut pariatur voluptatibus recusandae magnam dolores officiis maiores, veniam, quod possimus error corrupti ad quisquam perspiciatis dolor quam veritatis? Aliquid mollitia nobis repellat sed saepe laudantium perferendis, suscipit porro corrupti odio voluptas beatae culpa quam.</p>              
+           <p>Bem-vindo a Sandiego Barbearia!  A 15 anos, oferecemos um ambiente contemporâneo,acolhedor e vintage, para homens em busca de cuidados com sua aparência e bem estar.<br>Nossa barbearia é mais do que apenas um lugar para cortar o cabelo - é um ponto de encontro da comunidade. Ao se sentar em uma de nossas confortáveis cadeiras de barbeiro vintage, iremos lhe oferecer o melhor em cuidados masculinos,com cortes de cabelo e barba, garantindo que cada cliente receba uma experiência personalizada que realce seu estilo e personalidade.</p>              
           </div>        
         </div>
       </section>
 
-      <section class="serviços">
+      <section class="serviços" id="serviços">
         <h1>Nossos Serviços</h1>
         <div class="container">
           <div class="polaroid">
@@ -116,7 +123,7 @@
   </div>
       </section>
 
-      <section class="time"> 
+      <section class="time" id="equipe"> 
         <h1>Equipe</h1>
         <div class="container">
           <div class="polaroid_time">
@@ -145,7 +152,7 @@
       </div>
      </section>
 
-     <section class="galeria">
+     <section class="galeria" id="galeria">
       <h1>Galeria</h1>
 
       <div class="gallery">
@@ -183,7 +190,7 @@
       </div>
       </section>
 
-      <section class="contato">
+      <section class="contato" id="contato">
         <h1>Contato</h1>
         
         <div class="container">
@@ -231,5 +238,6 @@
       
     
 </body>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
+<script src="js/top.js"></script>
 </html>
