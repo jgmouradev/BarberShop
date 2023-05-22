@@ -9,9 +9,15 @@
         height: 101vh;
         
       }
-
     .logo{
-        margin-top: -690px;
+        margin-top: -645px;
+    }
+    .logo img {
+        width: 18rem;
+        height: 15rem;
+    }
+    .menu-item{
+        margin: 22px;
     }
     .banner h1{
         font-size: 1.8rem;
@@ -109,6 +115,9 @@
     .instagram img{
         width: 2.5rem;
         height: 2.5rem;
+    }
+    .whatsapp{
+        margin: 20px;
     }
     .whatsapp .btn{
         padding: 10px 10px;
